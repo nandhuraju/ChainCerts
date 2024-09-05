@@ -15,7 +15,7 @@ const Navbar = () => {
           className=" bg-green-600 text-white p-[12px] rounded hover:bg-green-500 shadow-xl shadow-gray-600 mr-2"
           onClick={connectToMetamask}
         >
-          Login as Admin
+         Connect to Metamask
         </button>
         <a
           href="/"
