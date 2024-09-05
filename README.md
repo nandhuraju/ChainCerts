@@ -12,8 +12,8 @@ ChainCerts is designed to allow educational institutions or other organizations 
 
 ## 📢 Prerequisites
 
-- **Node.js** <img src="https://skillicons.dev/icons?i=nodejs">: Ensure you have Node.js installed (v16.x recommended).
-- **Metamask** <img src="https://skillicons.dev/icons?i=metamask">: A browser extension to interact with Ethereum-based applications.
+- **Node.js** : Ensure you have Node.js installed (v16.x recommended).
+- **Metamask** : A browser extension to interact with Ethereum-based applications.
 
 ## ⚙️ Run Locally
 
