@@ -22,8 +22,8 @@ Clone the ChainCerts App from
 ```
 https://github.com/nandhuraju/ChainCerts.git
 
-cd ChainCerts
 ```
+cd ChainCerts
 
 Install dependencies
 
@@ -31,7 +31,7 @@ Install dependencies
 npm install
 ```
 
-```
+
 Add a main network to hardhat.config.
 
 - For example using sepolia and infura
@@ -39,8 +39,8 @@ Add a main network to hardhat.config.
 - Add your metamask private key
 
 Update hardhat.config.js
-```
 
+```
 module.exports = {
 defaultNetwork:"infurasepolia",
 networks: {
@@ -54,20 +54,17 @@ accounts:["your metamask private key"]
 },
 solidity: "0.8.20",
 };
-
 ```
 
-```
 
 open open terminal and run
 
+```
 npx hardhat node
-
 ```
 open another terminal in vscode (ctrl+shift+`)
 
 ```
-
 npx hardhat ignition deploy ignition/modules/Cert.js
 
 ```
@@ -77,8 +74,6 @@ copy Cert.json from contracts/Cert.sol to scdata
 copy deployed_addresses.json to scdata
 
 open another terminal in vscode (ctrl+shift+`)
-
-```
 
 cd ui
 
