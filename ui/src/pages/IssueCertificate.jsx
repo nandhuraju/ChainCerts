@@ -7,36 +7,15 @@ import { CertModuleCert } from "../scdata/deployed_addresses.json";
 const IssueCertificate = () => {
  
  const provider = new BrowserProvider(window.ethereum);
- 
-//   async function connectToMetamask() {
-//    const signer = await provider.getSigner();
-//    console.log("address", signer);
-//  }
 
 
   const [id, setId] = useState("");
   const [name, setName] = useState("");
   const [course, setCourse] = useState("Certified Blockchain Associate");
-  const [grade, setGrade] = useState("");
+  const [grade, setGrade] = useState("S");
   const [date, setDate] = useState("");
 
   const navigate = useNavigate();
-
-  // const submitCertificate = (e) => {
-  //   e.preventDefault();
-  //   const newCertificate = {
-  //     certiId,
-  //     candName,
-  //     courseName,
-  //     grade,
-  //     date,
-  //   };
-
-  //   addCertificateSubmit(newCertificate);
-  //   toast.success("new certificate added");
-  //   navigate("/");
-  // };
-
 
 
   async function submitCertificate(e) {
