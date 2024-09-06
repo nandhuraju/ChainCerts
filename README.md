@@ -102,3 +102,9 @@ Contributions are welcome! Feel free to fork the project and submit a pull reque
 3. Commit your changes (git commit -m 'Add <feature_name>').
 4. Push to the branch (git push origin feature/<feature_name>).
 5. Open a Pull Request.
+
+## 📝 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
