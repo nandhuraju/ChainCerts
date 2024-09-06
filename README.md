@@ -105,6 +105,6 @@ Contributions are welcome! Feel free to fork the project and submit a pull reque
 
 ## 📝 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/nandhuraju/ChainCerts/blob/main/License.txt) file for more details.
 
 ![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
