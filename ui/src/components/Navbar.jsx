@@ -10,7 +10,7 @@ const Navbar = () => {
    }
   return (
     <>
-      <div className=" mt-[20px] mx-auto ml-11">
+      <div className=" mt-[10px] mx-auto ml-11">
         <button
           className=" bg-green-600 text-white p-[12px] rounded hover:bg-green-500 shadow-xl shadow-gray-600 mr-2"
           onClick={connectToMetamask}
