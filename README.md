@@ -88,7 +88,7 @@ npm run dev
 
 ## Demo Video
 
-[![Demo](https://icons.iconarchive.com/icons/iconsmind/outline/256/Youtube-icon.png](https://www.youtube.com/watch?v=TEyUhWua7kw)
+[![Demo](https://icons.iconarchive.com/icons/iconsmind/outline/256/Youtube-icon.png)](https://www.youtube.com/watch?v=TEyUhWua7kw)
 
 
 
