@@ -54,7 +54,7 @@ const IssueCertificate = () => {
               <option value="Certified Blockchain Associate" selected>
                 Certified Blockchain Associate
               </option>
-              <option value="Certif const [error, setError] = useState(null);ied Ethereum Developer">
+              <option value="Certified Ethereum Developer">
                 Certified Ethereum Developer
               </option>
               <option value="Certified Hyperledger Fabric Developer">

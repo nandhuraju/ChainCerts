@@ -63,7 +63,7 @@ const View = () => {
                 </span>
               </p>
               <p className="italic mt-4 text-lg">
-                has successfully completed the course
+                has successfully completed the course{" "}
               </p>
               <span className="font-semibold text-2xl underline block mt-2">
                 {certificateData.course}
