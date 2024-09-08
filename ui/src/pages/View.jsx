@@ -48,60 +48,63 @@ const View = () => {
 
   return (
     <>
-      <div className="max-w-3xl mx-auto mt-12 p-8 shadow-xl rounded-lg bg-blue-600">
-        <div className="border-8 border-double border-gray-300 p-8 bg-yellow-200 rounded-lg relative">
-          <div className="absolute inset-0 border-4 border-dashed border-gray-500 m-6"></div>
-          <div className="relative text-center p-6">
-            <h2 className="text-4xl font-extrabold uppercase text-blue-700 mb-6">
-              Kerala Blockchain Academy
-            </h2>
-            <div className="text-xl mb-6">
-              <p className="text-2xl">
-                This is to certify that <br />
-                <span className="font-bold text-3xl mt-4 block">
-                  {certificateData.name}
-                </span>
+      <div className="max-w-4xl mx-auto mt-12 p-12 shadow-2xl rounded-2xl bg-white relative">
+        <div className="border-[12px] border-gray-800 p-8 rounded-lg bg-white relative z-10">
+          <div className="border-[8px] border-dashed border-gray-400 p-8 rounded-lg bg-yellow-100 relative">
+            <div className="text-center">
+              <h2 className="text-5xl font-bold uppercase text-blue-800 mb-6">
+                Kerala Blockchain Academy
+              </h2>
+              <p className="text-2xl italic mb-8">This is to certify that</p>
+              <p className="text-4xl font-semibold mb-4 text-blue-900">
+                {certificateData.name}
               </p>
-              <p className="italic mt-4 text-lg">
-                has successfully completed the course{" "}
+              <p className="text-xl italic mb-4">
+                has successfully completed the course
               </p>
-              <span className="font-semibold text-2xl underline block mt-2">
+              <p className="text-3xl font-bold underline mb-6 text-gray-800">
                 {certificateData.course}
-              </span>
-              <p className="text-lg mt-6">
-                with the grade of{" "}
+              </p>
+              <p className="text-lg mb-6">
+                with a grade of{" "}
                 <span className="font-bold text-2xl">
                   {certificateData.grade}
                 </span>
               </p>
             </div>
-            <div className="flex justify-between items-center mt-8">
+
+            <div className="flex justify-between items-center mt-10">
               <div className="text-left">
-                <p className="text-lg">
+                <p className="text-lg font-semibold">
                   Certificate ID: <span className="font-bold">{id}</span>
                 </p>
-                <p className="text-lg">
+                <p className="text-lg font-semibold">
                   Date of Completion:{" "}
                   <span className="font-bold">{certificateData.date}</span>
                 </p>
               </div>
               <div className="text-right">
-                <p className="text-lg">
+                <p className="text-lg font-semibold">
                   Place: <span className="font-bold">Trivandrum</span>
                 </p>
               </div>
             </div>
-            <div className="mt-12 text-right">
-              <p className="text-lg font-bold">(sd/-)</p>
-              <p className="text-lg font-bold">Director</p>
+
+            <div className="text-right mt-12">
+              <p className="text-xl font-bold">(sd/-)</p>
+              <p className="text-xl font-bold">Director</p>
             </div>
           </div>
         </div>
+
+        {/* Ribbon element */}
+        <div className="absolute top-0 right-0 left-0 h-12 bg-gradient-to-r from-yellow-400 to-yellow-600 z-0 transform -translate-y-6 rounded-t-lg"></div>
       </div>
-      <div className="text-center mt-6">
+
+      <div className="text-center mt-8">
         <a
           href="/"
-          className="bg-green-600 text-white px-6 py-3 rounded hover:bg-green-500 shadow-xl shadow-gray-600"
+          className="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-500 shadow-lg"
         >
           Search Another Certificate
         </a>
